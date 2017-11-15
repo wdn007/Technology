@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+ 
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+* { margin:0; padding:0;}
+html{/*background-color:#fff;*/}
+body{font-family:'微软雅黑','宋体',Arial; margin:0 auto;min-width:980px; font-size:14px; background:#FFF; color:#333333; min-width:1100px;}
+a,img { border:0;}
+a { text-decoration:none; cursor: pointer; }
+ul,li{ list-style:none; }
+input,button{overflow:visible;}
+input,select,textarea { outline:none;}
+img { display:bolck; border:0px; }/*img { vertical-align:top;}*/ /*清楚图片下面的空白*/
+html { width:100%; height:100%;}
+.center { width:1210px; margin:0 auto;}
+.fl { float:left;}
+.fr { float:right;}
+.clear { clear:both;}
+
+/*首页*/
+.top{width:100%;background: #f9f9f9;height: 30px;}
+.top p{line-height: 30px;font-size: 12px;}
+.left_top{float:left;}
+.right_top{float:right;}
+.right_top ul li a{line-height: 30px;
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+    padding: 0px 10px;}
+.index { background:url(../images/index_bg.gif) top center #aaaaaa no-repeat; width:100%; padding-top:100px;}
+.login_t { background:url(../images/bg_b.png) repeat; width:1210px; height:92px;}
+.lgtil { width:618px; margin:0 auto; padding-top:13px;}
+.login-m { background:url(../images/bg_w.png) repeat; height:auto; /*padding:63px 50px 63px 70px;*/ height:auto; overflow:hidden;}
+.loglf { float:left; width:360px;}
+.lglftil { background:url(../images/regtil.png) no-repeat; height:30px; line-height:31px; width:377px; text-align:center; font-size:30px; line-height:31px;}
+.logtab { margin-top:25px;}
+.logtab td { padding:7px 0;}
+.lginpW,.lginpW1 {height:38px; line-height:38px; border:0; padding-left:3px;}
+.lginpW { width:259px; background:url(../images/lgtex.png) no-repeat; }
+.lginpW1 { background:url(../images/lgtex1.png) no-repeat; width:119px;}
+.yzmimg { vertical-align:middle; margin-left:18px;}
+
+.lgtabtil { text-align:right; width:71px;}
+.lgbut { border-radius:3px; width:120px; height:36px; background:#2d83e4; border:0; cursor:pointer; font-size:16px; color:#FFF; font-family:'微软雅黑'; line-height:36px; text-align:center; margin-right:20px;}
+.lgrig_ny { width:512px; float:right;}
+.logrig li {color:#555555; line-height:30px;}
+.logrig li img { margin-left:9px;}
+.logrig li a{color:#555555;}
+.logrig li a:hover { color:#2d83e4;}
+.logrig li span { float:right;}
+.lkmore { text-align:right; color:#2d83e4; display:block; margin-top:10px;}
+.indexNav{
+	border-width: 0; 
+	background: #171919; 
+	border-radius: 0;
+	text-align: center;
+}
+.ver-line{
+	color: #fff;
+    line-height: 48px;
+    font-size: 20px;
+    margin: 0 10px;
+}
+.nav{
+	height: 38px;
+    width: 1210px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 44px;
+    display: block;
+}
+.new{width:259px;position:absolute;border:1px solid #CCC;display:none; background:#FFF;}
+.nav li{line-height:30px;}
+.navUl li a{color:#fff;padding: 15px 40px;}
+.nav li a:hover{background:rgba(255,255,255,1);color: #333333;font-weight: bold;}
+/*
+.navSelected{
+	background:rgba(255,255,255,1);
+	color: #333333;
+}
+.navSelected>a{
+	color: #333333;!important
+	font-weight: bold;
+}*/
+.til_{
+	border: 1px solid #e7e7e7;
+    margin-top: 10px;
+    background: #f5f5f5;
+    height: 45px;
+    line-height: 45px;
+}
+.til_ span{
+	color: #171919;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 3px solid #002A80;
+    padding: 8px 7px;
+    margin-left: 20px;
+}
+.til_>a{
+	float: right;
+    text-decoration: none;
+    color: #171919;
+    /* font-weight: bold; */
+    margin-right: 5px;
+    font-size: 12px;
+}
+.contentBox{
+	border: 1px solid #e7e7e7;
+	height: auto;
+	min-height: 300px;
+	over-flow: heidden;
+	background: #fff;
+}
+.contentBox ul{
+	margin-left: -10px;
+}
+.contentBox ul li{
+	padding: 5px 10px 0 10px;
+}
+.raceBox ul li,
+.newsBox ul li{
+	padding: 14px 0 13px 0;
+	border-bottom: 1px dashed #e7e7e7;
+}
+.contentBox ul li a{
+	font-size: 13px;
+	color: #333;
+}
+.raceBox  ul li a,
+.newsBox ul li a{
+	width: 262px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    margin-left: 18px;
+}
+
+.contentBox ul li a:hover{
+	text-decoration: underline;
+	color: #002A80;
+}
+.contentBox ul li span{
+	margin-right: 10px;
+	color: #777;
+	font-size: 10px;
+	float: right;
+	margin-top: -16px;
+}
+.contentBox ul .new_info>a{
+	color: #337ab7;
+}
+.info_icon{
+	font-size: 12px;
+}
+.upload_name,
+.academy_name{
+	font-weight: bold;
+}
+.linkTo ul li{
+    /* background: #eee; */
+    padding: 10px 10px;
+    border-bottom: 1px dashed #e6e6e6;
+    margin-left: 10px;
+}
+.linkTo ul li a{
+	margin-left: 10px;
+}
+/*.academy_news ul li div{
+	float: left;
+}*/
+.academy_news ul li{
+	border-bottom: 1px solid #e7e7e7;
+	padding: 15px 5px;
+}
+.academy_news ul li img{
+	width: 100px;
+	height: 120px;
+}
+.academy_news ul li h1{
+	font-weight: bold;
+	font-size: 14px;
+}
+.academy_news ul li p{
+	text-indent: 2em;
+	font-size: 13px;
+}
+.academy_competition ul{
+	margin-left: 55px;
+	padding: 20px 20px;
+}
+.academy_competition ul li{
+	float: left;
+    display: block;
+    margin-right: 55px;
+    width: 205px;
+    height: 45px;
+    border-left: 3px solid #002A80;
+    background: #E6E6E6;
+    line-height: 35px;
+    margin-bottom: 15px;
+}.academy_competition ul li a:hover{
+	text-decoration: none;
+}
+
+
+/*newCenter页面*/
+.location{
+	float: right;
+	margin-right: 10px;
+}
+.newsCenterBox ul li{
+	border-bottom: 1px solid #e7e7e7;
+	padding: 21px 5px;
+}
+.list_left{
+	float: left;
+	margin-left: 20px;
+}
+.list_right{
+	float:right;
+	margin-right: 20px;
+}
+.bottom_pages{
+	text-align: center;
+}
+.bottom_pages .pagination li{
+	border: none;
+}
+.detail_pra{
+	text-align: center;
+}
+.detail_pra h1{
+	font-size:20px;
+	color: #000;
+}
+.detail_p{
+	text-align: left;
+	text-indent: 2em;
+	padding:0 20px;
+}
+.detail_p p{
+	text-indent: 2em;
+}
+
+.bottom { height:70px; background:#888888; padding-top:30px;}
+.bottom p { text-align:center; color:#dedede; line-height:24px;}
+
+
+
+
+.lgrig_ny {
+	width: 800px;
+}
+			
+.lgbut {
+	float: right;
+	margin: 30px 0px;
+}
+.replace {
+	height: 96px;
+}
